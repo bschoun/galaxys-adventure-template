@@ -4,8 +4,7 @@
     "description": "",
     "dependencies": {
         "device": "*",
-        "animation": "*",
-        "corgio": "*"
+        "animation": "*"
     },
     "files": [
         "main.blocks",
