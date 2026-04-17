@@ -23,17 +23,17 @@ This repository can be added as an **extension** in MakeCode.
 * click on **Extensions** under the gearwheel menu
 * search for **https://github.com/bschoun/galaxys-adventure-template** and import-->
 
-### Set up instructions 
+### Set up instructions:
 
 There are two ways to install the project: from a file or from GitHub.
 
-### Import from file method
+#### Import from file method
 1. Download the [project image file](https://bschoun.github.io/galaxys-adventure-template/assets/img/project.png) (it's a PNG that encodes the project!).
 1. Open [https://arcade.makecode.com/](https://arcade.makecode.com/)
 2. Click on **Import** then click on **Import File...**
 3. Select the PNG file and import.
 
-### Import from GitHub method
+#### Import from GitHub method
 1. Open [https://arcade.makecode.com/](https://arcade.makecode.com/)
 2. Click on **Import** then click on **Import URL...**
 3. Paste **https://github.com/bschoun/galaxys-adventure-template** and click import
