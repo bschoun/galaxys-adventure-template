@@ -23,7 +23,7 @@ This repository can be added as an **extension** in MakeCode.
 * click on **Extensions** under the gearwheel menu
 * search for **https://github.com/bschoun/galaxys-adventure-template** and import-->
 
-## Step 1: Set up the project <!--![Build status badge](https://github.com/bschoun/galaxys-adventure-template/workflows/MakeCode/badge.svg)-->
+## Set up instructions
 
 There are two ways to install the project: from a file or from GitHub.
 
@@ -40,7 +40,7 @@ There are two ways to install the project: from a file or from GitHub.
 
 **Note**: The GitHub method may not work if you have multiple projects that start from this repository. The first method is preferred unless you need to commit back to GitHub for some reason.
 
-## Step 2: Try the emulator
+## Step 1: Test the sample game in the emulator
 
 After opening the project, you should see a game controller emulator that looks like this: 
 
@@ -50,11 +50,11 @@ Try using the emulator controls to move left and right (joystick) and to jump ('
 
 Try jumping into the water. What happens?
 
-## Step 3: Create a level
+## Step 2: Create a level
 
 To create a custom level, we're going to edit the tilemap. Tilemaps allow you to develop levels, and define playspaces for the characters in your games to roam around.
 
-### 3.1 Open the tilemap
+### 2.1 Open the tilemap
 
 Take a look at the blocks in the project. Find the block called `on start`. This block defines how the game is set up, such as what the level looks like, what Galaxy looks like, and how Galaxy moves.
 
@@ -66,13 +66,13 @@ Find the block inside `on start` called `set tilemap to`. Click the square in th
 
 The tilemap is the layout for the entire level. Galaxy starts on the left side of the tilemap, and needs to get all the way to the flag on the right side. However, as you may have noticed, Galaxy can't jump far enough to get to the next block. Let's add to this level so Galaxy can get to the flag!
 
-### 3.2 Drawing platforms
+### 2.2 Drawing platforms
 
 Let's first add a platform Galaxy can jump on. In the tilemap editor, select the Paint Tool (pencil icon), select the tile you want to draw, and draw a platform near where Galaxy starts.
 
 <img src="https://bschoun.github.io/galaxys-adventure-template/assets/img/addingplatform.jpg" alt="drawing" width="100%"/>
 
-### 3.3 Adding walls
+### 2.3 Adding walls
 
 If you run the game and jump on the platform now, Galaxy still falls in the water. We need to add walls to allow Galaxy to walk on top of the platform.
 
@@ -84,22 +84,22 @@ Now if you run the game, Galaxy should be able to jump on the platform!
 
 <img src="https://bschoun.github.io/galaxys-adventure-template/assets/img/emulator_platform.jpg" width="50%" alt="drawing"/>
 
-### 3.4 Completing the level
+### 2.4 Completing the level
 
 Draw several more platforms with walls to allow Galaxy to move through the level. Try not to make it too difficult for players, but also not too easy!
 
-## Step 4: Put it on hardware
+## Step 3 (optional): Put it on hardware
 
-### 4.1 Download your project
+### 3.1 Download your project
 
 In the main window, click the download button. Select your device from the options (probably Meowbit). This will download a .uf2 file.
 
 <img src="https://bschoun.github.io/galaxys-adventure-template/assets/img/download.jpg" alt="drawing" width="100%"/>
 
-### 4.2 Uploading your .uf2 file
+### 3.2 Uploading your .uf2 file
 
 Make sure the Meowbit is off and plug it into your computer. Hold down the 'A' button on the Meowbit while turning it on. This will open a folder with the device files. Drag the .uf2 file you downloaded into this folder. 
 
-### 4.3 Test your game
+### 3.3 Test your game
 
 That's it! The game should now be running on the device, and you can unplug it from the computer.
