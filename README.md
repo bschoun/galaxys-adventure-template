@@ -87,7 +87,7 @@ Now if you run the game, Galaxy should be able to jump on the platform!
 ### 2.4 Completing the level
 
 Draw several more platforms with walls to allow Galaxy to move through the level. Try not to make it too difficult for players, but also not too easy!
-
+ 
 ## Step 3 (optional): Put it on hardware
 
 ### 3.1 Download your project
