@@ -44,7 +44,7 @@ There are two ways to install the project: from a file or from GitHub.
 
 After opening the project, you should see a game controller emulator that looks like this: 
 
-<img src="https://bschoun.github.io/galaxys-adventure-template/assets/img/emulator.jpg" alt="drawing" width="300"/>
+<img src="https://bschoun.github.io/galaxys-adventure-template/assets/img/emulator.jpg" alt="drawing" width="50%"/>
 
 Try using the emulator controls to move left and right (joystick) and to jump ('A' button). You can also use WASD keys for movement and the space bar to jump. 
 
@@ -58,11 +58,11 @@ To create a custom level, we're going to edit the tilemap. Tilemaps allow you to
 
 Take a look at the blocks in the project. Find the block called `on start`. This block defines how the game is set up, such as what the level looks like, what Galaxy looks like, and how Galaxy moves.
 
-<img src="https://bschoun.github.io/galaxys-adventure-template/assets/img/onstart.jpg" alt="drawing" width="400"/>
+<img src="https://bschoun.github.io/galaxys-adventure-template/assets/img/onstart.jpg" alt="drawing" width="50%"/>
 
 Find the block inside `on start` called `set tilemap to`. Click the square in this block. This will open up the tilemap. It should look like this:
 
-<img src="https://bschoun.github.io/galaxys-adventure-template/assets/img/tilemap.jpg" alt="drawing" width="600"/>
+<img src="https://bschoun.github.io/galaxys-adventure-template/assets/img/tilemap.jpg" alt="drawing" width="100%"/>
 
 The tilemap is the layout for the entire level. Galaxy starts on the left side of the tilemap, and needs to get all the way to the flag on the right side. However, as you may have noticed, Galaxy can't jump far enough to get to the next block. Let's add to this level so Galaxy can get to the flag!
 
@@ -70,7 +70,7 @@ The tilemap is the layout for the entire level. Galaxy starts on the left side o
 
 Let's first add a platform Galaxy can jump on. In the tilemap editor, select the Paint Tool (pencil icon), select the tile you want to draw, and draw a platform near where Galaxy starts.
 
-<img src="https://bschoun.github.io/galaxys-adventure-template/assets/img/addingplatform.jpg" alt="drawing" width="600"/>
+<img src="https://bschoun.github.io/galaxys-adventure-template/assets/img/addingplatform.jpg" alt="drawing" width="100%"/>
 
 ### 3.3 Adding walls
 
@@ -78,11 +78,11 @@ If you run the game and jump on the platform now, Galaxy still falls in the wate
 
 In the tilemap editor, make sure the Paint Tool (pencil icon) is still selected, and click the Draw Walls icon (3D block). Make sure that the "Show walls" toggle is on. Draw walls on your platform.
 
-<img src="https://bschoun.github.io/galaxys-adventure-template/assets/img/addingwalls.jpg" alt="drawing" width="600"/>
+<img src="https://bschoun.github.io/galaxys-adventure-template/assets/img/addingwalls.jpg" alt="drawing" width="100%"/>
 
 Now if you run the game, Galaxy should be able to jump on the platform! 
 
-<img src="https://bschoun.github.io/galaxys-adventure-template/assets/img/emulator_platform.jpg" width=300px alt="drawing"/>
+<img src="https://bschoun.github.io/galaxys-adventure-template/assets/img/emulator_platform.jpg" width="50%" alt="drawing"/>
 
 ### 3.4 Completing the level
 
@@ -94,7 +94,7 @@ Draw several more platforms with walls to allow Galaxy to move through the level
 
 In the main window, click the download button. Select your device from the options (probably Meowbit). This will download a .uf2 file.
 
-<img src="https://bschoun.github.io/galaxys-adventure-template/assets/img/download.jpg" alt="drawing" width="600"/>
+<img src="https://bschoun.github.io/galaxys-adventure-template/assets/img/download.jpg" alt="drawing" width="100%"/>
 
 ### 4.2 Uploading your .uf2 file
 
