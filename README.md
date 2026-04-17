@@ -28,7 +28,7 @@ This repository can be added as an **extension** in MakeCode.
 There are two ways to install the project: from a file or from GitHub.
 
 ### Import from file method
-1. Download the [project image file](https://bschoun.github.io/galaxys-adventure-template/assets/project.png) (it's a PNG that encodes the project!).
+1. Download the [project image file](https://bschoun.github.io/galaxys-adventure-template/assets/img/project.png) (it's a PNG that encodes the project!).
 1. Open [https://arcade.makecode.com/](https://arcade.makecode.com/)
 2. Click on **Import** then click on **Import File...**
 3. Select the PNG file and import.
