@@ -23,7 +23,7 @@ This repository can be added as an **extension** in MakeCode.
 * click on **Extensions** under the gearwheel menu
 * search for **https://github.com/bschoun/galaxys-adventure-template** and import-->
 
-### Set up instructions
+### Set up instructions 
 
 There are two ways to install the project: from a file or from GitHub.
 
