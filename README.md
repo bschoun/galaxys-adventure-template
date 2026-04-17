@@ -62,7 +62,7 @@ Take a look at the blocks in the project. Find the block called `on start`. This
 
 Find the block inside `on start` called `set tilemap to`. Click the square in this block. This will open up the tilemap. It should look like this:
 
-<img src="https://bschoun.github.io/galaxys-adventure-template/assets/img/tilemap.jpg" alt="drawing"/>
+<img src="https://bschoun.github.io/galaxys-adventure-template/assets/img/tilemap.jpg" alt="drawing" width="500"/>
 
 The tilemap is the layout for the entire level. Galaxy starts on the left side of the tilemap, and needs to get all the way to the flag on the right side. However, as you may have noticed, Galaxy can't jump far enough to get to the next block. Let's add to this level so Galaxy can get to the flag!
 
@@ -70,7 +70,7 @@ The tilemap is the layout for the entire level. Galaxy starts on the left side o
 
 Let's first add a platform Galaxy can jump on. In the tilemap editor, select the Paint Tool (pencil icon), select the tile you want to draw, and draw a platform near where Galaxy starts.
 
-<img src="https://bschoun.github.io/galaxys-adventure-template/assets/img/addingplatform.jpg" alt="drawing"/>
+<img src="https://bschoun.github.io/galaxys-adventure-template/assets/img/addingplatform.jpg" alt="drawing" width="500"/>
 
 ### 3.3 Adding walls
 
@@ -78,7 +78,7 @@ If you run the game and jump on the platform now, Galaxy still falls in the wate
 
 In the tilemap editor, make sure the Paint Tool (pencil icon) is still selected, and click the Draw Walls icon (3D block). Make sure that the "Show walls" toggle is on. Draw walls on your platform.
 
-<img src="https://bschoun.github.io/galaxys-adventure-template/assets/img/addingwalls.jpg" alt="drawing"/>
+<img src="https://bschoun.github.io/galaxys-adventure-template/assets/img/addingwalls.jpg" alt="drawing" width="500"/>
 
 Now if you run the game, Galaxy should be able to jump on the platform! 
 
@@ -94,7 +94,7 @@ Draw several more platforms with walls to allow Galaxy to move through the level
 
 In the main window, click the download button. Select your device from the options (probably Meowbit). This will download a .uf2 file.
 
-<img src="https://bschoun.github.io/galaxys-adventure-template/assets/img/download.jpg" alt="drawing"/>
+<img src="https://bschoun.github.io/galaxys-adventure-template/assets/img/download.jpg" alt="drawing" width="500"/>
 
 ### 4.2 Uploading your .uf2 file
 
